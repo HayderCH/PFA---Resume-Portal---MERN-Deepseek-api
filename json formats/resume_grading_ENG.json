@@ -1,0 +1,11 @@
+{
+  "certification": 2,
+  "professional_certification": 4,
+  "personal_project": 10,
+  "academic_project": 8,
+  "professional_project": 16,
+  "book": 2,
+  "university_bachelor": 3,
+  "university_master": 5,
+  "university_phd_doctorate": 8
+}

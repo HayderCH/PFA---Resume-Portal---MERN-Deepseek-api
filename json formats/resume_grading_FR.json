@@ -1,0 +1,11 @@
+{
+  "certification": 2,
+  "certification_professionnelle": 4,
+  "projet_personnel": 10,
+  "projet_academique": 8,
+  "projet_professionnel": 16,
+  "livre": 2,
+  "universite_licence": 3,
+  "universite_master": 5,
+  "universite_phd_doctorat": 8
+}
