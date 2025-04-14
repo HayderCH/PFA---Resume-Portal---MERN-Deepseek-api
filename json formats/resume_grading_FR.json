@@ -1,11 +1,12 @@
 {
   "certification": 2,
-  "certification_professionnelle": 4,
-  "projet_personnel": 10,
-  "projet_academique": 8,
-  "projet_professionnel": 16,
-  "livre": 2,
-  "universite_licence": 3,
-  "universite_master": 5,
-  "universite_phd_doctorat": 8
+  "professional_certification": 3,
+  "personal_project": 7,
+  "academic_project": 7,
+  "professional_engineering_project": 11,
+  "book": 1,
+  "university_bachelor": 3,
+  "university_master": 5,
+  "university_phd_doctorate": 7,
+  "extra_curricular_activities":1
 }

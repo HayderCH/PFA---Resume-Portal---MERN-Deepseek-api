@@ -12,7 +12,7 @@
   "academic_projects": [
     {"name": "string", "description": "string", "date": "string"}
   ],
-  "professional_projects": [
+  "professional_engineering,projects": [
     {"name": "string", "description": "string", "date": "string"}
   ],
   "education": {
@@ -26,10 +26,10 @@
       {"name": "string", "description": "string", "date": "string"}
     ]
   },
-  "engineering_work": [
+  "engineering_job_titles": [
     {"name": "string", "description": "string", "start_date": "string", "end_date": "string"}
   ],
-  "non_engineering_work": [
+  "non_engineering_job_title": [
     {"name": "string", "description": "string", "start_date": "string", "end_date": "string"}
   ],
   "certifications": [
