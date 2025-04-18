@@ -12,7 +12,7 @@
   "academic_projects": [
     {"name": "string", "description": "string", "date": "string"}
   ],
-  "professional_engineering,projects": [
+  "professional_engineering_projects": [
     {"name": "string", "description": "string", "date": "string"}
   ],
   "education": {
