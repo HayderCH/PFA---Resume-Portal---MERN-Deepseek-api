@@ -1,0 +1,50 @@
+{
+  "full_name": "string",
+  "phone_number": "string",
+  "email": "string",
+  "residence": "string",
+  "linkedin": "string",
+  "github": "string",
+  "about_me": "string",
+  "personal_projects": [
+    {"name": "string", "description": "string", "date": "string"}
+  ],
+  "academic_projects": [
+    {"name": "string", "description": "string", "date": "string"}
+  ],
+  "professional_engineering_projects": [
+    {"name": "string", "description": "string", "date": "string"}
+  ],
+  "education": {
+    "licence": [
+      {"name": "string", "description": "string", "date": "string"}
+    ],
+    "master": [
+      {"name": "string", "description": "string", "date": "string"}
+    ],
+    "phd": [
+      {"name": "string", "description": "string", "date": "string"}
+    ]
+  },
+  "engineering_job_titles": [
+    {"name": "string", "description": "string", "start_date": "string", "end_date": "string"}
+  ],
+  "non_engineering_job_title": [
+    {"name": "string", "description": "string", "start_date": "string", "end_date": "string"}
+  ],
+  "certifications": [
+    {"name": "string", "description": "string", "date": "string"}
+  ],
+  "extra_curricular_activities": [
+    {"name": "string", "description": "string", "date": "string"}
+  ],
+  "skills": [
+    "string"
+  ],
+  "books": [
+    "string"
+  ],
+  "languages": [
+    "string"
+  ]
+}

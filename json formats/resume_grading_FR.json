@@ -1,0 +1,12 @@
+{
+  "certification": 2,
+  "professional_certification": 3,
+  "personal_project": 7,
+  "academic_project": 7,
+  "professional_engineering_project": 11,
+  "book": 1,
+  "university_bachelor": 3,
+  "university_master": 5,
+  "university_phd_doctorate": 7,
+  "extra_curricular_activities":1
+}

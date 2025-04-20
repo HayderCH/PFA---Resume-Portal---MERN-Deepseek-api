@@ -1,0 +1,84 @@
+-user worklow
+-user can sign up, name, surname, email, password
+-user can login
+-user can upload an image of resume, or pdf
+-text will be extracted with a pyth9on code we have
+-text will be fed to a deep seek api python file that will classify info as this:{
+  "full_name": "string",
+  "phone_number": "string",
+  "email": "string",
+  "residence": "string",
+  "linkedin": "string",
+  "github": "string",
+  "about_me": "string",
+  "personal_projects": [
+    {"name": "string", "description": "string", "date": "string"}
+  ],
+  "academic_projects": [
+    {"name": "string", "description": "string", "date": "string"}
+  ],
+  "professional_engineering,projects": [
+    {"name": "string", "description": "string", "date": "string"}
+  ],
+  "education": {
+    "licence": [
+      {"name": "string", "description": "string", "date": "string"}
+    ],
+    "master": [
+      {"name": "string", "description": "string", "date": "string"}
+    ],
+    "phd": [
+      {"name": "string", "description": "string", "date": "string"}
+    ]
+  },
+  "engineering_job_titles": [
+    {"name": "string", "description": "string", "start_date": "string", "end_date": "string"}
+  ],
+  "non_engineering_job_title": [
+    {"name": "string", "description": "string", "start_date": "string", "end_date": "string"}
+  ],
+  "certifications": [
+    {"name": "string", "description": "string", "date": "string"}
+  ],
+  "extra_curricular_activities": [
+    {"name": "string", "description": "string", "date": "string"}
+  ],
+  "skills": [
+    "string"
+  ],
+  "books": [
+    "string"
+  ],
+  "languages": [
+    "string"
+  ]
+}
+-the user will have a page with all these fields filled by extracted data, to double check validty. he can edit non correct information and presses save.
+-in the user profile page he will have his info along with how many times his resume was clicked y an entreprise in the dashboard
+
+
+-entreprise workflow:
+-entreprise can sign up with company name, and an email address
+-entreprises can login with that email
+-they have access to the dashboard page where all resumes are shown
+-they can filter the dashboard with tags that would matched extracted info from resumes
+-they can add emails that could log in to the same entreprise account (their personnel)
+-they have a bookmark tab where they can bookmark resumes of interest from the dashboard
+
+
+-other backend workflows:
+-users will be given a score based on this criteria:{
+  "certification": 2,
+  "professional_certification": 3,
+  "personal_project": 7,
+  "academic_project": 7,
+  "professional_engineering_project": 11,
+  "book": 1,
+  "university_bachelor": 3,
+  "university_master": 5,
+  "university_phd_doctorate": 7,
+  "extra_curricular_activities":1
+}
+-entreprises have the choice to also filter the dashboard with ascending or descending scores, along with tags, but they have the option
+to not include the score in the filter
+
