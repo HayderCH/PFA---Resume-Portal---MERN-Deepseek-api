@@ -1,42 +1,42 @@
-import  React, { useContext }  from 'react'
-import {Route, Routes} from 'react-router-dom'
-import Home from './pages/Home'
-import ApplyJob from './pages/ApplyJob'
-import Recruits from './pages/recruits'
-import RecruiterLogin from './components/RecruiterLogin'
-import { AppContext } from './context/AppContext'
-import Dashboard from './pages/Dashboard'
-import AddJob from './pages/AddJob'
-import ManageJobs from './pages/ManageJobs'
-import ViewApplications from './pages/ViewApplications'
-import 'quill/dist/quill.snow.css'
-import { ToastContainer, toast } from 'react-toastify';
+import React, { useContext } from "react";
+import { Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import ApplyJob from "./pages/ApplyJob";
+import Recruits from "./pages/recruits";
+import RecruiterLogin from "./components/RecruiterLogin";
+import { AppContext } from "./context/AppContext";
+import Dashboard from "./pages/Dashboard";
+import AddJob from "./pages/AddJob";
+import ManageJobs from "./pages/ManageJobs";
+import ViewApplications from "./pages/ViewApplications";
+import "quill/dist/quill.snow.css";
+import { ToastContainer } from "react-toastify";
+import Analytics from "./pages/Analytics";
 
 function App() {
-   
-  const {showRecruiterLogin, companyToken} = useContext(AppContext)
+  const { showRecruiterLogin, companyToken } = useContext(AppContext);
 
   return (
     <div>
-      {showRecruiterLogin && <RecruiterLogin/>}
-      <ToastContainer/>
+      {showRecruiterLogin && <RecruiterLogin />}
+      <ToastContainer />
       <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/apply-job/:id' element={<ApplyJob/>}/>
-        <Route path='/recruits' element={<Recruits/>}/>
-        <Route path='dashboard' element={<Dashboard/>}>
-          {companyToken ? <>
-            <Route path='add-job' element={<AddJob/>} />
-            <Route path='manage-jobs' element={<ManageJobs/>} />
-            <Route path='view-applications' element={<ViewApplications/>} />
-          </>:
-          null}
-          
+        <Route path="/" element={<Home />} />
+        <Route path="/apply-job/:id" element={<ApplyJob />} />
+        <Route path="/recruits" element={<Recruits />} />
+        <Route path="dashboard" element={<Dashboard />}>
+          {companyToken ? (
+            <>
+              <Route path="add-job" element={<AddJob />} />
+              <Route path="manage-jobs" element={<ManageJobs />} />
+              <Route path="view-applications" element={<ViewApplications />} />
+            </>
+          ) : null}
         </Route>
+        <Route path="/analytics" element={<Analytics />} />
       </Routes>
-       
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
