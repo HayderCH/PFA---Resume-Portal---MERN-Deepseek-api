@@ -1,9 +1,7 @@
-# Ignore all node_modules recursively
-**/node_modules/
 
-# Ignore all .env files recursively
-**/.env
 
-# Optional: ignore build or dist folders if you have them
-**/build/
-**/dist/
+
+node_modules/
+.env
+
+
