@@ -4,4 +4,27 @@
 node_modules/
 .env
 
+# Spring Boot
+spring-boot-app/*/target/
+spring-boot-app/*/mvnw
+spring-boot-app/*/mvnw.cmd
+spring-boot-app/*/.mvn/
+*.log
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# OS
+.DS_Store
+Thumbs.db
 
